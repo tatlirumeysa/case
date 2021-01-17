@@ -24,8 +24,8 @@ public class RoverApplication {
 		System.out.println("Welcome to Mars Rover console application!");
 		System.out.print("Enter upper right coordinates of the plateau in the form x y :");
 		String numbers[] = scanner.nextLine().split(" ");
-        int plateauX = Integer.parseInt(numbers[0]);
-        int plateauY = Integer.parseInt(numbers[1]);	
+        	int plateauX = Integer.parseInt(numbers[0]);
+        	int plateauY = Integer.parseInt(numbers[1]);	
 		System.out.println("Plateau is being created..");
 		Plateau p = new Plateau(plateauX,plateauY);
 		//for roverA
